@@ -1,8 +1,14 @@
 import CartActionTypes from './cart.types';
 
-const toggleDropdown=()=>(
+export const toggleDropdown=()=>(
     {
         type:CartActionTypes.TOGGLE_DROPDOWN
     }
-)
-export default toggleDropdown;
+);
+
+export const addItem=(item)=>(
+    {
+        type:CartActionTypes.ADD_ITEM,
+        payload:item
+    }
+);
