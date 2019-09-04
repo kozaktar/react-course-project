@@ -32,9 +32,10 @@ class App extends React.Component {
       }
     )
   }
-  else
-    setCurrentUser(userAuth // userAuth is null in this case.
+
+    setCurrentUser(userAuth // userAuth is null in this case. 
       )
+  
    })
    
   }
